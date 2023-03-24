@@ -1,0 +1,42 @@
+.statistics-section {
+    background-color: lightgray;
+}
+.statistics-box {
+text-align: center;
+}
+.statistics-title {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.title {
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.stat-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.item {
+    display: flex;
+    flex-direction: column;   
+}
+.label {
+    color: blue;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing:1.7;
+    padding: 10px;
+}
+.percentage {
+composes: label;
+font-size: 18px;
+padding-bottom: 10px;
+text-align: center;
+}

@@ -1,0 +1,35 @@
+.transaction-history {
+    table-layout: fixed;
+    width: 100%;
+    /* border-collapse: collapse; */
+    border: 3px solid lightgrey;
+}
+/* thead th:nth-child(1) {
+    width: 33%;
+}
+thead th:nth-child(2) {
+    width: 33%;
+}
+thead th:nth-child(3) {
+    width: 33%;
+} */
+th, td {
+    padding: 20px;
+}
+tbody td {
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgrey;
+}
+table {
+    background-color: lightblue;
+}
+.title {
+    font-size: 20px;
+    color: blue;
+}
