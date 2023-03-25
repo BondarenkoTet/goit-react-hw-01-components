@@ -6,11 +6,6 @@
     flex-direction: column;
     list-style: none; 
 }
-.friend-item {
-    margin-bottom: 10px;
-    display: flex;
-
-}
 .status {
 width: 100%;
 }
